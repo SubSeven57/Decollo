@@ -32,8 +32,8 @@ Contact
 
 Please direct all issues at the GitHub page:
 	
-	https://github.com/dlduvio/Decollo
+	https://github.com/splynt/Decollo
 
 or email me at:
 
-	dalt.duvi@gmail.com
+	splyntm@gmail.com

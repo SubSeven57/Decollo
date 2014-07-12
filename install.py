@@ -4,7 +4,7 @@
 # 
 # install.py is a Python module for Decollo that installs the program
 # 
-# Dalton Duvio <dalt.duvi@gmail.com>
+# Splynt <splyntm@gmail.com>
 #
 # Do whatever the fuck you want with this script. It's too simple to give a shit about anyways.
 
