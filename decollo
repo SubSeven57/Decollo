@@ -1,0 +1,88 @@
+#!/usr/bin/python
+# 
+# Decollo [version 1.1.3]
+# 
+# Decollo is a simple script to help install basic programs
+#
+# Decollo is written in Python
+# 
+# Copyright 2014 Dalton Duvio <dalt.duvi@gmail.com>
+#
+# Distributed under the terms of the GNU General Public License v3.
+# See http://www.gnu.org/licenses/gpl.txt for the full text.
+# 
+
+# Import modules as lib and d
+import decolib as lib
+import decodescript as d
+
+#-----Programs to Install-----#
+
+basicPrograms = ['aptUpdate', 'aptUpgrade']
+
+mediaPrograms = ['steam', 'clementine', 'radiotray', 'spotify', 'mixxx', 'caffeine','vlc', 'vlcPlugin']
+
+themePrograms = ['numix', 'moka', 'unityTweak', 'dconf', 'conky']
+
+extraPrograms = ['ubuntuRestricted', 'openssh', 'rar', 'guake', 'diodon']
+
+developerPrograms = ['git']
+
+#-----Methods-----#
+
+# Step for simple and ppa installs
+def step(value):
+    answer = ''
+    code = 'answer = raw_input(d.{0})'.format(value)
+    exec code
+    code2 = 'lib.{0}(answer)'.format(value)
+    exec code2
+
+
+# Creates run function
+def run(basicPrograms, developerPrograms, extraPrograms, mediaPrograms, themePrograms):
+    lib.clear()
+    lib.intro()
+    
+    cont = True
+
+    for value in basicPrograms:
+        if value == 'aptUpdate' and lib.aptUpdate(raw_input(d.aptUpdate)) == False:
+            cont = False
+            break
+        elif value != 'aptUpdate':
+            step(value)
+        
+        
+    if cont == True:
+
+        d.mediaPrograms()
+        
+        for val in mediaPrograms:
+            if val == 'vlc' and lib.vlc(raw_input(d.vlc)) == False:
+                break
+            elif val != 'vlc':
+                step(val)
+        
+        d.themePrograms()
+
+        for val in themePrograms:
+            step(val)
+        
+        d.extraPrograms()
+
+        for val in extraPrograms:
+            step(val)
+        
+        d.developerPrograms()
+
+        for val in developerPrograms:
+            step(val)
+
+
+    lib.fini()
+
+#-----Run-----#
+
+# Runs program
+run(basicPrograms, developerPrograms, extraPrograms, mediaPrograms, themePrograms)

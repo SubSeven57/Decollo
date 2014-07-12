@@ -1,0 +1,30 @@
+Version 1.1
+===========
+- Added Guake
+- Added Radiotray
+- Added Clementine
+- Cleaned up code
+
+Version 1.0
+===========
+
+- Renamed INSTALL.py to install.py
+- Categorized and separated steps
+- Created descriptions between categories
+- Added dconf tools install
+- Added OpenSSH server install w/ ssh-askpass
+- Added git install
+
+Version 0.5
+===========
+
+- Created INSTALL.py, which installs everything for the user
+- Added descriptions of each step in the process
+- Made the VLC Plugin step dependent on whether the VLC step was performed or not
+- Reordered steps
+- Fixed bugs
+
+Version 0.1dev
+==============
+
+- Created foundational framework for Decollo
