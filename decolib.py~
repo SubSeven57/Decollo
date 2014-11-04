@@ -102,7 +102,7 @@ def caffeine(answer):
 # Installs Numix GTK and icon themes
 def numix(answer):
     ppa = "ppa:numix/ppa"
-    program = 'numix-gtk-theme numix-icon-theme-circle'
+    program = 'numix-gtk-theme numix-icon-theme-circle numix-icon-theme-shine'
     ppaInstall(ppa, program, answer)
 
 # Installs RAR and UnRAR
