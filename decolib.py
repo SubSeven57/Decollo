@@ -4,7 +4,7 @@
 # 
 # decolib.py is a Python module for Decollo that holds the functions to install the individual programs
 # 
-# Copyright 2014 Splynt <splyntm@gmail.com>
+# Copyright 2014 Dalton Duvio <dalt.duvi@gmail.com>
 #
 # Distributed under the terms of the GNU General Public License v3.
 # See http://www.gnu.org/licenses/gpl.txt for the full text
@@ -18,9 +18,9 @@ def clear():
 
 # Gives intro to program
 def intro():
-    print """Welcome to Decollo, the Python version. This is very much a work in progress and I suggest using the regular Decollo script at:
+    print """Welcome to Decollo, written in Python. This is very much a work in progress. You can check out the project at:
     
-    github.com/2d-ideas/decollo
+    github.com/dlduvio/decollo
 
 This version is written in Python to set up the basis for the future GUI version of Decollo. 
 
