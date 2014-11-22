@@ -20,7 +20,7 @@ import decodescript as d
 
 basicPrograms = ['aptUpdate', 'aptUpgrade']
 
-mediaPrograms = ['steam', 'clementine', 'radiotray', 'spotify', 'mixxx', 'caffeine','vlc']
+mediaPrograms = ['steam', 'clementine', 'radiotray', 'spotify', 'mixxx', 'caffeine','vlc', 'vlcPlugin']
 
 themePrograms = ['numix', 'moka', 'unityTweak', 'dconf', 'conky']
 
@@ -59,7 +59,10 @@ def run(basicPrograms, developerPrograms, extraPrograms, mediaPrograms, themePro
         d.mediaPrograms()
         
         for val in mediaPrograms:
-            step(val)
+            if val == 'vlc' and lib.vlc(raw_input(d.vlc)) == False:
+                break
+            elif val != 'vlc':
+                step(val)
         
         d.themePrograms()
 

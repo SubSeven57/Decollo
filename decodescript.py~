@@ -261,6 +261,23 @@ Would you like to install VLC player? (Y/n)
 
 '''
 
+# Desc. of VLC plugin installation
+vlcPlugin = '''
+VLC BROWSER PLUGIN
+==================
+
+VLC also has a video plugin for your browser. Many use this to play .avi and .divx files straight from the browser. Unfortunately, to use this plugin, Totem must be disabled within each browser. Most of the time, it is easier to just remove or uninstall Totem all together and use VLC as the default media player. The following package will be removed:
+
+    totem
+
+The following package will be installed:
+
+    browser-plugin-vlc
+
+Would you like to remove Totem and install the VLC browser plugin? (Y/n)
+
+'''
+
 #Desc. of OpenSSH installation
 openssh = '''
 OPENSSH

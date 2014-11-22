@@ -129,6 +129,11 @@ def ubuntuRestricted(answer):
 def unityTweak(answer):
     simpleInstall('unity-tweak-tool', answer)
 
+# Installs VLC browser plugin and removes Totem
+def vlcPlugin(answer):
+    x = promptInstall(answer, 'sudo apt-get install -y browser-plugin-vlc && sudo apt-get remove -y totem && sudo apt-get autoremove')
+    clear()
+
 # Removes shopping suggestions
 def removeShopping(answer):
     x = promptInstall(answer, '''sudo gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-amazon.scope', 'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', 'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']"''')
