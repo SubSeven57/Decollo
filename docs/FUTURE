@@ -3,7 +3,8 @@ PROGRAMS
 
 - Vim
 - Oxygen Cursor Theme
-
+- Dropbox
+- config (.dot) files that are a bit nicer than the defaults. 
 
 BUGS
 ====
