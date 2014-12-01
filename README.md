@@ -10,16 +10,6 @@ Instructions
 
 - Open terminal and navigate to unzipped folder (i.e. cd ~/Downloads/Decollo-master)
 
-**If you want to install Decollo....**
-
-- In terminal, type:
-
-	$ python install.py
-
-	$ decollo
-
-**If you just want to run it....**
-
 - In terminal type:
 
 	$ python decollo
