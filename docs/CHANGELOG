@@ -1,3 +1,8 @@
+Version 1.2
+===========
+- Added Oxygen cursor theme
+- Added vim
+
 Version 1.1.1
 =============
 - Removed VLC plugin option because it is no longer needed
@@ -7,6 +12,7 @@ Version 1.1
 - Added Guake
 - Added Radiotray
 - Added Clementine
+- Added Diodon
 - Cleaned up code
 
 Version 1.0

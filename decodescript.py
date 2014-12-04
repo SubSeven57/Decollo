@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# decodescript [version 1.1.3]
+# decodescript [version 1.2]
 #
 # decodescript.py is a Python module for Decollo which holds the descriptions of each step
 # 
@@ -385,5 +385,32 @@ Mixxx is an open-source DJing program. It is a full featured DJ program with man
     mixxx
 
 Would you like to install Mixxx? (Y/n)
+
+'''
+
+# Desc. of Oxygen cursor theme installation
+oxygenCursorTheme = '''
+OXYGEN CURSOR THEME
+===================
+
+The Oxygen cursor theme is simply a cursor theme that is default on KDE-based distros, such as Kubuntu. The following package will be installed:
+
+    oxygen-cursor-theme
+
+Would you like to install the Oxygen cursor theme? (Y/n)
+
+'''
+
+# Desc. of Vim installation
+
+vim = '''
+VIM
+===
+
+Vim is a terminal-based text editor that is lauded by programmers and power users for it's flexibility and power. The following package will be installed:
+
+    vim
+
+Would you like to install Vim? (Y/n)
 
 '''

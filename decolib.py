@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# decolib [version 1.1.3]
+# decolib [version 1.2]
 # 
 # decolib.py is a Python module for Decollo that holds the functions to install the individual programs
 # 
@@ -171,5 +171,15 @@ def moka(answer):
 # Installs Mixxx
 def mixxx(answer):
     simpleInstall('mixxx', answer)
+
+# Installs Oxygen cursor theme
+
+def oxygenCursorTheme(answer):
+    simpleInstall('oxygen-cursor-theme', answer)
+
+# Install vim
+
+def vim(answer):
+    simpleInstall('vim', answer)
 
 

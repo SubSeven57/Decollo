@@ -1,8 +1,6 @@
 PROGRAMS
 ========
 
-- Vim
-- Oxygen Cursor Theme
 - Dropbox
 - config (.dot) files that are a bit nicer than the defaults. 
 
@@ -15,5 +13,5 @@ TBD
 CODE
 ====
 
-- Shorten code and make more efficient
+- Make more efficient (aka shorter)
 
