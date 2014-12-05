@@ -1,4 +1,4 @@
-Decollo v1.2
+Decollo v1.3
 ============
 
 Decollo is a python program for Ubuntu. This program helps install some programs and themes that I find "necessary" for my Ubuntu setup. I am writing this script from scratch and this will be the basis for the future GUI version of Decollo. In other words, this is still a work in progress.

@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # 
-# Decollo [version 1.2]
+# Decollo [version 1.3]
 # 
 # Decollo is a simple script to help install basic programs
 #
@@ -24,7 +24,7 @@ mediaPrograms = ['steam', 'clementine', 'radiotray', 'spotify', 'mixxx', 'caffei
 
 themePrograms = ['numix', 'moka','oxygenCursorTheme', 'unityTweak', 'dconf', 'conky']
 
-extraPrograms = ['ubuntuRestricted', 'openssh', 'rar', 'guake', 'diodon']
+extraPrograms = ['ubuntuRestricted', 'fixUbuntu', 'openssh', 'rar', 'guake', 'diodon']
 
 developerPrograms = ['git', 'vim']
 

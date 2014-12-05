@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# decodescript [version 1.2]
+# decodescript [version 1.3]
 #
 # decodescript.py is a Python module for Decollo which holds the descriptions of each step
 # 
@@ -412,5 +412,18 @@ Vim is a terminal-based text editor that is lauded by programmers and power user
     vim
 
 Would you like to install Vim? (Y/n)
+
+'''
+
+# Desc. of Fix Ubuntu
+fixUbuntu = '''
+FIX UBUNTU PRIVACY
+==================
+
+Fix Ubuntu is a script to secure the user's privacy, specifically for Unity. It disables Remote Search and remote shopping scopes from the Dash. The following command will be run:
+
+    wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash
+
+Would you like to run the Fix Ubuntu script? (Y/n)
 
 '''

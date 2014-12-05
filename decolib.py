@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# decolib [version 1.2]
+# decolib [version 1.3]
 # 
 # decolib.py is a Python module for Decollo that holds the functions to install the individual programs
 # 
@@ -84,6 +84,12 @@ def simpleInstall(program, answer):
 def ppaInstall(ppa, program, answer):
     x = promptInstall(answer, "sudo add-apt-repository {0} && sudo apt-get update && sudo apt-get install -y {1}".format(ppa, program))
     clear()
+
+# Runs the Fix Ubuntu script
+def fixUbuntu(answer):
+    x = promptInstall(answer, "wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash")
+    clear()
+
 
 # Installs Steam
 def steam(answer):
