@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# decolib [version 1.3]
+# decolib [version 1.4]
 # 
 # decolib.py is a Python module for Decollo that holds the functions to install the individual programs
 # 
@@ -187,5 +187,10 @@ def oxygenCursorTheme(answer):
 
 def vim(answer):
     simpleInstall('vim', answer)
+
+# Install Compiz Config Settings Manager
+
+def compizConfig(answer):
+    simpleInstall('compizconfig-settings-manager', answer)
 
 

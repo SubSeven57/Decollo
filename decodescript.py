@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# decodescript [version 1.3]
+# decodescript [version 1.4]
 #
 # decodescript.py is a Python module for Decollo which holds the descriptions of each step
 # 
@@ -163,7 +163,7 @@ caffeine = '''
 CAFFEINE
 ========
 
-Caffeine prevents the monitor or screen from turning off while a full-screen program is active, such as while watching a movie. The following package will be installed:
+Caffeine prevents the monitor or screen from turning off while a full-screen program is active, such as while watching a movie. The following package will be installed:
 
     caffeine
 
@@ -425,5 +425,18 @@ Fix Ubuntu is a script to secure the user's privacy, specifically for Unity. It 
     wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash
 
 Would you like to run the Fix Ubuntu script? (Y/n)
+
+'''
+
+# Desc. of Compiz Config Settings Manager
+compizConfig = '''
+Compiz Settings Manager
+=======================
+
+Compiz Config Settings Manager is an application that gives you access to the settings of Compiz, the compositing window manager for Unity. The following package will be installed:
+
+    compizconfig-settings-manager
+
+Would you like to install Compiz Config Settings Manager? (Y/n)
 
 '''
