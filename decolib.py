@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #
 # decolib [version 1.4]
-# 
+#
 # decolib.py is a Python module for Decollo that holds the functions to install the individual programs
-# 
+#
 # Copyright 2014 Dalton Duvio <dalt.duvi@gmail.com>
 #
 # Distributed under the terms of the GNU General Public License v3.
@@ -18,11 +18,11 @@ def clear():
 
 # Gives intro to program
 def intro():
-    print """Welcome to Decollo, written in Python. This is very much a work in progress. You can check out the project at:
-    
+    print """Welcome to DecolloX, a script written in Python. This was originally authored by @dlduvio. You can check out their repo at:
+
     github.com/dlduvio/decollo
 
-This version is written in Python to set up the basis for the future GUI version of Decollo. 
+    This fork is maintained by @SubSeven57.
 
     Please press enter to continue......."""
 
@@ -50,9 +50,9 @@ Thank you for using Decollo.
 
 # Checks the answer ("answer") and executes a shell command from a parameter named "command"
 def promptInstall(answer, command):
-    
+
     ans = answer.lower().strip()
-    
+
     if ans in ['y', 'yes', '']:
         clear()
         subprocess.call(command, shell = True)
@@ -61,7 +61,7 @@ def promptInstall(answer, command):
         return False
     else:
         promptInstall(raw_input("(Y)es or (N)o? "), command)
-    
+
     clear()
 
 # Performs a 'sudo apt-get update' in terminal
@@ -192,5 +192,3 @@ def vim(answer):
 
 def compizConfig(answer):
     simpleInstall('compizconfig-settings-manager', answer)
-
-
