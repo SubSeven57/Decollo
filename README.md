@@ -1,58 +1,13 @@
-Decollo v1.4
+DecolloX
 ============
 
-Decollo is a python program for Ubuntu. This program helps install some programs and themes that I find "necessary" for my Ubuntu setup. I am writing this script from scratch and this will be the basis for the future GUI version of Decollo. In other words, this is still a work in progress.
+Decollo is a python toll for Ubuntu. This program install some programs I deem "necessary" for most Ubuntu set ups.
+
+This current version is going a major rewrite. Expect a lot of issues.
 
 Programs/Scripts
 ================
-
-MEDIA
-- Steam
-- Clementine
-- Radiotray
-- Spotify
-- Mixxx
-- Caffeine
-- VLC
-
-THEME
-- Numix GTK and circle icon theme
-- Moka Project GTK and icon themes
-- Oxygen cursor theme
-- Unity Tweak Tool
-- Compiz Config Settings Manager
-- Dconf editor
-- Conky
-
-EXTRA
-- Ubuntu Restricted Extras
-- Fix Ubuntu script for privacy
-- OpenSSH server
-- RAR and UnRAR
-- Guake terminal
-- Diodon
-
-DEVELOPMENT
-- Git
-- Vim
-
-Instructions
-============
-
-- Unzip the .zip file
-
-- Open terminal and navigate to unzipped folder (i.e. cd ~/Downloads/Decollo-master)
-
-- In terminal type:
-
-	$ python decollo
-
-- Follow instructions
-
-- ?
-
-- Profit
-
+TBD
 
 Warnings/Notes
 ==============
@@ -62,10 +17,11 @@ This is still very much a work in progress. Use at your own risk.
 Contact
 =======
 
-Please direct all issues at the GitHub page:
-	
-	https://github.com/dlduvio/Decollo
+This is a fork of the original Decollo by @dlduvio.
 
-or email me at:
+Please direct all issues for __this__ project at:
 
-	dalt.duvi@gmail.com
+	https://github.com/SubSeven57/Decollo
+
+or reach me on Twitter:
+@ScarletDawn32
