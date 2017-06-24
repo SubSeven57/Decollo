@@ -85,11 +85,7 @@ def ppaInstall(ppa, program, answer):
     x = promptInstall(answer, "sudo add-apt-repository {0} && sudo apt-get update && sudo apt-get install -y {1}".format(ppa, program))
     clear()
 
-# Runs the Fix Ubuntu script
-def fixUbuntu(answer):
-    x = promptInstall(answer, "wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash")
-    clear()
-
+## Applications ###
 
 # Installs Steam
 def steam(answer):
@@ -103,12 +99,6 @@ def conky(answer):
 def caffeine(answer):
     ppa = "ppa:caffeine-developers/ppa"
     program = "caffeine"
-    ppaInstall(ppa, program, answer)
-
-# Installs Numix GTK and icon themes
-def numix(answer):
-    ppa = "ppa:numix/ppa"
-    program = 'numix-gtk-theme numix-icon-theme-circle'
     ppaInstall(ppa, program, answer)
 
 # Installs RAR and UnRAR
@@ -131,64 +121,15 @@ def vlc(answer):
 def ubuntuRestricted(answer):
     simpleInstall('ubuntu-restricted-extras', answer)
 
-# Installs Unity Tweak Tool
-def unityTweak(answer):
-    simpleInstall('unity-tweak-tool', answer)
-
-# Removes shopping suggestions
-def removeShopping(answer):
-    x = promptInstall(answer, '''sudo gsettings set com.canonical.Unity.Lenses disabled-scopes "['more_suggestions-amazon.scope', 'more_suggestions-u1ms.scope', 'more_suggestions-populartracks.scope', 'music-musicstore.scope', 'more_suggestions-ebay.scope', 'more_suggestions-ubuntushop.scope', 'more_suggestions-skimlinks.scope']"''')
-    clear()
-
 # Installs OpenSSH
 def openssh(answer):
     simpleInstall('openssh-server ssh-askpass', answer)
 
-# Installs dconf editor
-def dconf(answer):
-    simpleInstall('dconf-tools', answer)
 
 # Installs git
 def git(answer):
     simpleInstall('git', answer)
 
-#Installs Clementine
-def clementine(answer):
-    simpleInstall('clementine', answer)
-
-# Installs Radiotray
-def radiotray(answer):
-    simpleInstall('radiotray', answer)
-
 # Installs Tilda
 def guake(answer):
     simpleInstall('guake', answer)
-
-# Installs Diodon
-def diodon(answer):
-    simpleInstall('diodon', answer)
-
-# Installs Moka
-def moka(answer):
-    ppa = 'ppa:moka/stable'
-    program = 'moka-gtk-theme orchis-gtk-theme stark-gtk-theme faba-icon-theme moka-icon-theme faba-mono-icons faba-colors'
-    ppaInstall(ppa, program, answer)
-
-# Installs Mixxx
-def mixxx(answer):
-    simpleInstall('mixxx', answer)
-
-# Installs Oxygen cursor theme
-
-def oxygenCursorTheme(answer):
-    simpleInstall('oxygen-cursor-theme', answer)
-
-# Install vim
-
-def vim(answer):
-    simpleInstall('vim', answer)
-
-# Install Compiz Config Settings Manager
-
-def compizConfig(answer):
-    simpleInstall('compizconfig-settings-manager', answer)
