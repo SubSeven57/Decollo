@@ -5,7 +5,7 @@
 # decolib.py is a Python module for Decollo that holds the functions to install the individual programs
 #
 # Copyright 2014 Dalton Duvio <dalt.duvi@gmail.com>
-#
+# Fork Mainted by SubSeven57
 # Distributed under the terms of the GNU General Public License v3.
 # See http://www.gnu.org/licenses/gpl.txt for the full text
 

@@ -1,16 +1,16 @@
 #!/usr/bin/python
-# 
-# Decollo [version 1.4]
-# 
-# Decollo is a simple script to help install basic programs
 #
-# Decollo is written in Python
+# Decollo [version 1.4]
+#
+# Decollo is a simple script to help install basic programs
 # 
+# Decollo is written in Python
+#
 # Copyright 2014 Dalton Duvio <dalt.duvi@gmail.com>
 #
 # Distributed under the terms of the GNU General Public License v3.
 # See http://www.gnu.org/licenses/gpl.txt for the full text.
-# 
+#
 
 # Import modules as lib and d
 import decolib as lib
@@ -43,7 +43,7 @@ def step(value):
 def run(basicPrograms, mediaPrograms, themePrograms, extraPrograms, developerPrograms):
     lib.clear()
     lib.intro()
-    
+
     cont = True
 
     for value in basicPrograms:
@@ -52,25 +52,25 @@ def run(basicPrograms, mediaPrograms, themePrograms, extraPrograms, developerPro
             break
         elif value != 'aptUpdate':
             step(value)
-        
-        
+
+
     if cont == True:
 
         d.mediaPrograms()
-        
+
         for val in mediaPrograms:
             step(val)
-        
+
         d.themePrograms()
 
         for val in themePrograms:
             step(val)
-        
+
         d.extraPrograms()
 
         for val in extraPrograms:
             step(val)
-        
+
         d.developerPrograms()
 
         for val in developerPrograms:
