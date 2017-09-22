@@ -14,7 +14,7 @@ Instructions
 
 - Unzip the .zip file
 
-- Open terminal and navigate to unzipped folder (i.e. cd ~/Downloads/Decollo-master)
+- Open terminal and navigate to unzipped folder
 
 - In terminal type:
 
