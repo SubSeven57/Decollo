@@ -183,7 +183,7 @@ def mixxx(answer):
 def oxygenCursorTheme(answer):
     simpleInstall('oxygen-cursor-theme', answer)
 
-# Install vim
+# Install vim: to be replace with emacs soon
 
 def vim(answer):
     simpleInstall('vim', answer)
