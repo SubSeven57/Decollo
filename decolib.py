@@ -97,9 +97,8 @@ def conky(answer):
 
 # Install Caffeine
 def caffeine(answer):
-    ppa = "ppa:caffeine-developers/ppa"
-    program = "caffeine"
-    ppaInstall(ppa, program, answer)
+    simpleInstall('caffeine-plus', answer)
+
 
 # Installs RAR and UnRAR
 def  rar(answer):
@@ -108,7 +107,7 @@ def  rar(answer):
 
 # Installs Spotify from repository
 def spotify(answer):
-    x = promptInstall(answer, 'sudo add-apt-repository "deb http://repository.spotify.com stable non-free" && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59 && sudo apt-get update && sudo apt-get install -y spotify-client')
+    x = promptInstall(answer, 'sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410 && sudo add-apt-repository "deb http://repository.spotify.com stable non-free" && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59 && sudo apt-get update && sudo apt-get install -y spotify-client')
     clear()
 
 # Installs VLC media player

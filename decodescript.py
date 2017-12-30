@@ -3,9 +3,9 @@
 # decodescript [version 1.4]
 #
 # decodescript.py is a Python module for Decollo which holds the descriptions of each step
-# 
+#
 # Copyright 2014 Dalton Duvio <dalt.duvi@gmail.com>
-# 
+#
 # Distributed under the terms of the GNU General Public License v3
 # See http://www.gnu.org/licenses/gpl.txt for the full text
 
@@ -74,7 +74,7 @@ EXTRAS
 
 # Desc. of Developer programs
 def developerPrograms():
-    
+
     print '''
 
 
@@ -165,7 +165,7 @@ CAFFEINE
 
 Caffeine prevents the monitor or screen from turning off while a full-screen program is active, such as while watching a movie. The following package will be installed:
 
-    caffeine
+    caffeine-plus
 
 from the following PPA:
 
